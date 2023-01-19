@@ -1,0 +1,23 @@
+﻿<Window x:Class="Notepad.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Notepad"
+        mc:Ignorable="d"
+        Title="About" Height="350" Width="400">
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin ="0,20,0,0" FontSize="30" TextWrapping="Wrap" FontWeight="Bold" Text="WINDOW 10" TextAlignment="Center"  VerticalAlignment="Top" Height="36" Width="200"/>
+        <TextBlock HorizontalAlignment="Center" Margin ="0,75,0,0" FontSize="12" TextWrapping="Wrap"  TextAlignment="Center"  VerticalAlignment="Top" Height="221" Width="349">
+            
+            Microsoft Windows <LineBreak/>
+            Version 21H2<LineBreak/>
+            <LineBreak/>
+            This Window 10 HOme operating system and its user interface are protected by trademark and other peding or existing intellectual property rights in the United Stats and other countries/ region
+            <LineBreak/><LineBreak/><LineBreak/>
+            This product is licensed under the <Underline>Microsoft Software Lincense Terms </Underline> to: <LineBreak/>
+            cainephung2512@hotmail.com
+        </TextBlock>
+
+    </Grid>
+</Window>
